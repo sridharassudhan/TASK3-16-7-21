@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sridharassudhanPROMTask-2</title>
+    
+</head>
+<body>
+    <h1>SEE THE CONSOLE</h1>
+    <script>
+        const countdown = document.querySelector(".countdown");
+const deepak = new Promise((resolve, reject) => {
+  const cleanedRoom = false;
+  if (cleanedRoom) {
+    resolve("Go and play");
+  } else {
+    reject("Go do laundry");
+  }
+});
+
+deepak.then((msg) => msg + " enjoy").catch((errmsg) => console.log(errmsg)); 
+ deepak
+   .then((msg) => msg + " enjoy")
+   .then((msg) => console.log(msg))
+   . then((msg) => console.log(msg))
+   .catch((errmsg) =>console.log(errmsg)); 
+    </script>
+</body>
